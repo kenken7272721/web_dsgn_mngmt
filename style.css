@@ -137,7 +137,7 @@ color:#666;
 /* グリッド
 **************************/
 .gridWrapper{
-padding-bottom:20px;
+padding-bottom:0px;
 clear:both;
 overflow:hidden;
 }
@@ -153,8 +153,8 @@ border-bottom:1px solid #ccc;
 .grid p{padding:5px 0;}
 
 .grid p.img{
-float:left;
-margin:3px 0 0 0;
+/*float:left;*/
+margin:5px 0 0 0;
 }
 
 .readmore{clear:both;}
@@ -242,7 +242,10 @@ font-size:20px;
 font-weight:bold;
 }
 
-#footer .copyright{font-size:11px;}
+#footer .copyright{
+font-size:11px;
+padding: 0 10px 0 0;
+}
 
 
 /*************
